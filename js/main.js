@@ -1,14 +1,10 @@
-/*
-Name : Main.JS Portofolio
-Author : Fikri Maulana
-Date : 7 April 2021
-*/
+
 document.addEventListener('contextmenu', event => event.preventDefault());
 
-$('a.home').bind('click', function(event) {
+$('a.marker').bind('click', function(event) {
     $.ajax({
         type: 'GET',
-        url: domain + "home.html",
+        url: domain + "marker.html",
         cache: false,
         processData: false,
         contentType: false,
@@ -30,10 +26,10 @@ $('a.about').bind('click', function(event) {
     });
 });
 
-$('a.skill').bind('click', function(event) {
+$('a.guide').bind('click', function(event) {
     $.ajax({
         type: 'GET',
-        url: domain + "skill.html",
+        url: domain + "guide.html",
         cache: false,
         processData: false,
         contentType: false,
@@ -43,10 +39,10 @@ $('a.skill').bind('click', function(event) {
     });
 });
 
-$('a.contact').bind('click', function(event) {
+$('a.start').bind('click', function(event) {
     $.ajax({
         type: 'GET',
-        url: domain + "contact.html",
+        url: domain + "start.html",
         cache: false,
         processData: false,
         contentType: false,
