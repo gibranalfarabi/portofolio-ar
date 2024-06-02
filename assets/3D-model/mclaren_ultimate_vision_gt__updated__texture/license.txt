@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mclaren Ultimate Vision GT | updated + texture
+* source:	https://sketchfab.com/3d-models/mclaren-ultimate-vision-gt-updated-texture-9356ec0503bd45debd2b4cec317ad4c6
+* author:	kevin (ケビン) (https://sketchfab.com/sohyalebret)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mclaren Ultimate Vision GT | updated + texture" (https://sketchfab.com/3d-models/mclaren-ultimate-vision-gt-updated-texture-9356ec0503bd45debd2b4cec317ad4c6) by kevin (ケビン) (https://sketchfab.com/sohyalebret) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

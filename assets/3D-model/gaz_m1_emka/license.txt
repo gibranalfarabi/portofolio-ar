@@ -1,0 +1,11 @@
+Model Information:
+* title:	GAZ M1 EMKA
+* source:	https://sketchfab.com/3d-models/gaz-m1-emka-82fddda5616b49f793be418458f3f7fc
+* author:	Q.SARDOR (https://sketchfab.com/qsardor57913)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "GAZ M1 EMKA" (https://sketchfab.com/3d-models/gaz-m1-emka-82fddda5616b49f793be418458f3f7fc) by Q.SARDOR (https://sketchfab.com/qsardor57913) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mercedes Benz E-Class W211
+* source:	https://sketchfab.com/3d-models/mercedes-benz-e-class-w211-f9cb5a20c3204d5f8597add9f8ac1758
+* author:	BadKarma™ (https://sketchfab.com/890244234)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mercedes Benz E-Class W211" (https://sketchfab.com/3d-models/mercedes-benz-e-class-w211-f9cb5a20c3204d5f8597add9f8ac1758) by BadKarma™ (https://sketchfab.com/890244234) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
