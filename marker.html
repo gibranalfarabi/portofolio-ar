@@ -4,10 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="KoFiDev Portofolio With Bootstrap and Ajax" />
-    <meta name="author" content="Fikri Maulana" />
+    <meta name="description" content="Portofolio Augmented Reality" />
+    <meta name="author" content="Gibran Alfarabi" />
     <!-- Icon -->
-    <link rel="icon" type="image/x-icon" href="https://kofidev.my.id/assets/img/logo.png" />
+    <link rel="icon" type="image/x-icon" src="./img/ar.png" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- fonts -->
@@ -18,18 +18,18 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- FA -->
     <script src="https://kit.fontawesome.com/6e0e29fc96.js" crossorigin="anonymous"></script>
-    <title>KoFiDev | Portofolio</title>
+    <title>Augmented Reality</title>
     </head>
 <div id="home" class="container custom-content animated lightSpeedIn">
     <div class="col-12" style="margin-top:15%">
         <div class="right">
-            <p><i class="fa fa-home"></i> Home</p>
+            <p><i class="fa fa-barcode"></i> Marker</p>
         </div>
         <div class="card">
             <div class="card-body">
                     <div id="typed-strings">
-                        <p>Hi, <em>Welcome to</em></p>
-                        <p>Fikri Maulana <strong>Portofolio</strong>.</p>
+                        <p>Download your image markers here. Simply click on the button to download them and use them in the AR application.</p>
+                        <a class="btn btn-pink mb-2" href="marker/image-marker.pdf" download="image-marker.pdf">Download Here!</a>
                     </div>
                       <span id="typed"></span>
             </div>
@@ -39,8 +39,7 @@
 <body class="bg-info">
     <nav class="navbar navbar-expand-lg navbar-light bg-danger fixed-top flex-grow-0">
         <div class="container">
-            <h3><i class="fa fa-mug-hot text-white m-2 pt-1"></i></h3>
-            <a class="navbar-brand font-weight-bold home">KoFiDev</a>
+            <a class="navbar-brand font-weight-bold home" href="index.html">Augmented Reality</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -48,16 +47,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto mr-4">
                     <li class="nav-item">
-                        <a href="home.html" class="btn btn-pink home"><i class="fa fa-home home"></i> Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
                         <a href="about.html" class="btn btn-blue about"><i class="fa fa-user"></i> About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="skill.html" class="btn btn-orange skill" ><i class="fa fa-file"></i> Skills</a>
+                        <a href="guide.html" class="btn btn-orange guide" ><i class="fa fa-file"></i> Guide</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="btn btn-white contact"><i class="fa fa-phone"></i> Contact</a>
+                        <a href="marker.html" class="btn btn-pink marker"><i class="fa fa-barcode home"></i> Marker <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="card-tracking.html" class="btn btn-white start"><i class="fa fa-play"></i> Start AR</a>
                     </li>
                 </ul>
             </div>
@@ -66,12 +65,12 @@
    <div id="content"></div>
     <!-- footer -->
     <div class="custom-footer text-center">
-            <div class="col-12">
-                <a class="btn btn-pink mb-2" href="https://instagram.com/justakofi"><i class="fa fa-instagram"></i></a>
-                <a class="btn btn-white mb-2" href="https://github.com/FikriMaulana85"><i class="fa fa-github"></i></a>
-                <a class="btn btn-blue mb-2" href="https://kofidev.my.id"><i class="fa fa-globe"></i></a>
-                <p class="mt-2">© Fikri Maulana (KoFiDev) | Made ❤️</p>
-            </div>
+        <div class="col-12">
+            <a class="btn btn-pink mb-2" href="https://instagram.com/gibrn.alfarabi"><i class="fa fa-instagram"></i></a>
+            <a class="btn btn-white mb-2" href="https://github.com/gibranalfarabi"><i class="fa fa-github"></i></a>
+            <a class="btn btn-blue mb-2" href="https://www.linkedin.com/in/gibranalfarabi/"><i class="fa fa-linkedin"></i></a>
+            <p class="mt-2">© Gibran Alfarabi | 2115061034</p>
+        </div>
     </div>
    
 </body>
@@ -83,5 +82,12 @@
     backSpeed: 50,
     backDelay: 2000
   });
+  window.onload = function() {
+      document
+          .querySelector(".start")
+          .addEventListener("click", function() {
+              alert("Opening camera....");
+          });
+    };
 </script>
 </html>

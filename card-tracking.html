@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Portofolio Augmented Reality" />
+    <meta name="author" content="Gibran Alfarabi" />
+    <!-- Icon -->
+    <link rel="icon" type="image/x-icon" src="./img/ar.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400&display=swap" rel="stylesheet">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- FA -->
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v7.0.0/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+    <script src="https://kit.fontawesome.com/6e0e29fc96.js" crossorigin="anonymous"></script>
+    <title>Augmented Reality</title>
+
+    <style>
+        .back-button {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          z-index: 1000;
+        }
+      </style>
+  </head>
+  <body>
+    <a class="btn btn-pink mb-2 back-button" href="index.html">Back</a>
+    <a-scene mindar-image="imageTargetSrc: ./assets/target/targets.mind; maxTrack: 10" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+      <a-assets>
+        <a-asset-item id="porsche1Model" src="./assets/3D-model/2013__porsche_917_living_legend_concept/scene.gltf"></a-asset-item>
+        <a-asset-item id="cartoonModel" src="./assets/3D-model/cartoon_car/scene.gltf"></a-asset-item>
+        <a-asset-item id="brabusModel" src="./assets/3D-model/brabus_g900_rocket_edition/scene.gltf"></a-asset-item>
+        <a-asset-item id="chevroletModel" src="./assets/3D-model/chevrolet_chevelle_ss/scene.gltf"></a-asset-item>
+        <a-asset-item id="gazModel" src="./assets/3D-model/gaz_m1_emka/scene.gltf"></a-asset-item>
+        <a-asset-item id="mclarenModel" src="./assets/3D-model/mclaren_ultimate_vision_gt__updated__texture/scene.gltf"></a-asset-item>
+        <a-asset-item id="mercedes1Model" src="./assets/3D-model/mercedes-benz_s63_coupe_brabus_800/scene.gltf"></a-asset-item>
+        <a-asset-item id="mercedes2Model" src="./assets/3D-model/mercedes_benz_e-class_w211/scene.gltf"></a-asset-item>
+        <a-asset-item id="porsche2Model" src="./assets/3D-model/porsche_gt3_rs/scene.gltf"></a-asset-item>
+        <a-asset-item id="datsunModel" src="./assets/3D-model/free_1972_datsun_240k_gt/scene.gltf"></a-asset-item>
+      </a-assets>
+
+      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-gltf-model rotation="0 0 0" position="0 0 0" scale="20 20 20" src="#porsche1Model"></a-gltf-model>
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 1">
+        <a-gltf-model rotation="0 0 0" position="0 0 0" scale="0.05 0.05 0.05" src="#cartoonModel"></a-gltf-model>
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 2">
+        <a-gltf-model rotation="0 0 0" position="0 0 0" scale="0.2 0.2 0.2" src="#brabusModel"></a-gltf-model>
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 3">
+        <a-gltf-model rotation="0 0 0" position="-0.1 0 0" scale="0.015 0.015 0.015" src="#chevroletModel"></a-gltf-model>
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 4">
+        <a-gltf-model rotation="0 0 0" position="0 0 0" scale="0.15 0.15 0.15" src="#gazModel"></a-gltf-model>
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 5">
+        <a-gltf-model rotation="0 45 0" position="0 0 0" scale="0.1 0.1 0.1" src="#mclarenModel"></a-gltf-model>
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 6">
+        <a-gltf-model rotation="0 0 0" position="0 0 0" scale="0.1 0.1 0.1" src="#mercedes1Model"></a-gltf-model>
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 7">
+        <a-gltf-model rotation="0 0 0" position="0 0 0" scale="0.09 0.09 0.09" src="#mercedes2Model"></a-gltf-model>
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 8">
+        <a-gltf-model rotation="0 180 0" position="0 0 0" scale="0.18 0.18 0.18" src="#porsche2Model"></a-gltf-model>
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 9">
+        <a-gltf-model rotation="0 0 0" position="0 0 0" scale="1 1 1" src="#datsunModel"></a-gltf-model>
+      </a-entity>
+
+    </a-scene>
+  </body>
+</html>
