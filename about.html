@@ -19,8 +19,9 @@
   <!-- FA -->
   <script src="https://kit.fontawesome.com/6e0e29fc96.js" crossorigin="anonymous"></script>
   <title>Augmented Reality</title>
+
   <style>
-    .custom-content {
+        .custom-content {
       margin-top: 20%;
     }
     .custom-footer {
@@ -45,7 +46,7 @@
                 <a href="about.html" class="btn btn-blue about"><i class="fa fa-user"></i> About</a>
             </li>
             <li class="nav-item">
-                <a href="guide.html" class="btn btn-orange guide"><i class="fa fa-file"></i> Guide</a>
+                <a href="guide.html" class="btn btn-orange guide" ><i class="fa fa-file"></i> Guide</a>
             </li>
             <li class="nav-item">
                 <a href="marker.html" class="btn btn-pink marker"><i class="fa fa-barcode home"></i> Marker <span class="sr-only">(current)</span></a>
@@ -58,12 +59,23 @@
     </div>
   </nav>
   <!--Tutup Navbar-->
+  <div id="content"></div>
+  <!-- footer -->
+  <div class="custom-footer text-center">
+    <div class="col-12">
+      <a class="btn btn-pink mb-2" href="https://instagram.com/gibrn.alfarabi"><i class="fa fa-instagram"></i></a>
+      <a class="btn btn-white mb-2" href="https://github.com/gibranalfarabi"><i class="fa fa-github"></i></a>
+      <a class="btn btn-blue mb-2" href="https://www.linkedin.com/in/gibranalfarabi/"><i class="fa fa-linkedin"></i></a>
+      <p class="mt-2">© Gibran Alfarabi | 2115061034</p>
+    </div>
+  </div>
 
-  <div class="container custom-content animated lightSpeedIn">
+  <!-- About Sections -->
+  <div class="container-fluid">
     <div class="row">
       <div class="col-md-6">
-        <div id="about1" class="container custom-content">
-          <div class="col-12">
+        <div id="about1" class="container custom-content animated lightSpeedIn">
+          <div class="col-12" style="margin-top:15%">
             <div class="right">
               <p><i class="fa fa-user"></i> AR</p>
             </div>
@@ -72,7 +84,7 @@
                 <div class="img-about">
                   <p class="card-text">
                     <p style="font-size: 25px; font-weight: 700;">Augmented Reality</p>
-                    <p>Augmented Reality (AR) adalah teknologi yang menggabungkan dunia nyata dengan elemen-elemen virtual yang dihasilkan oleh komputer. Dengan AR, pengguna dapat melihat dan berinteraksi dengan objek digital yang ditampilkan di atas lingkungan fisik melalui perangkat seperti smartphone, tablet, atau kacamata khusus AR.</p>
+                    <p style="width: 60%;">Augmented Reality (AR) adalah teknologi yang menggabungkan dunia nyata dengan elemen-elemen virtual yang dihasilkan oleh komputer. Dengan AR, pengguna dapat melihat dan berinteraksi dengan objek digital yang ditampilkan di atas lingkungan fisik melalui perangkat seperti smartphone, tablet, atau kacamata khusus AR.</p>
                   </p>
                 </div>
               </div>
@@ -81,8 +93,8 @@
         </div>
       </div>
       <div class="col-md-6">
-        <div id="about2" class="container custom-content">
-          <div class="col-12">
+        <div id="about2" class="container custom-content animated lightSpeedIn">
+          <div class="col-12" style="margin-top:15%">
             <div class="right">
               <p><i class="fa fa-user"></i> Developer</p>
             </div>
@@ -95,7 +107,7 @@
                     <p style="font-size: 20px; font-weight: 700;">2115061034</p>
                     <p style="font-size: 20px; font-weight: 700;">Front-End Developer</p>
                     <p style="font-size: 15px; font-weight: 600;">Contact me on:</p>
-                    <p style="font-size: 15px; font-weight: 600;"><i class="fa fa-envelope"></i> gibranalfarabi18@gmail.com</p> 
+                    <p style="font-size: 15px; font-weight: 600;"><i class="fa        fa-envelope"></i> gibranalfarabi18@gmail.com</p> 
                   </p>
                 </div>
               </div>
@@ -105,29 +117,18 @@
       </div>
     </div>
   </div>
-
-  <!-- footer -->
-  <div class="custom-footer text-center">
-    <div class="col-12">
-      <a class="btn btn-pink mb-2" href="https://instagram.com/gibrn.alfarabi"><i class="fa fa-instagram"></i></a>
-      <a class="btn btn-white mb-2" href="https://github.com/gibranalfarabi"><i class="fa fa-github"></i></a>
-      <a class="btn btn-blue mb-2" href="https://www.linkedin.com/in/gibranalfarabi/"><i class="fa fa-linkedin"></i></a>
-      <p class="mt-2">© Gibran Alfarabi | 2115061034</p>
-    </div>
-  </div>
-
+</body>
   <!-- JavaScript files for Bootstrap and jQuery -->
   <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js'></script>
   <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
-  <script>
-    window.onload = function() {
+<script>
+      window.onload = function() {
       document
           .querySelector(".start")
           .addEventListener("click", function() {
               alert("Opening camera....");
           });
     };
-  </script>
-</body>
+</script>
 </html>
