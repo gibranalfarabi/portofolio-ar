@@ -141,16 +141,6 @@ body {
 	background-position-y: bottom;
 }
 
-
-/* Cursor */
-
-.typed-cursor {}
-
-
-/* If fade out option is set */
-
-.typed-fade-out {}
-
 .animated {
 	padding-top: 95px;
 	margin-bottom: 60px;
