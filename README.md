@@ -12,3 +12,18 @@ https://gibranalfarabi.github.io/portofolio-ar/index.html
 Or you can use this QR Code to go to the application:
 
 <img src="https://github.com/gibranalfarabi/portofolio-ar/assets/137768982/7246c05b-381b-4cd8-bb02-a8ad491e8777" alt="QR Code" width="500" />
+
+## Video
+
+Here’s a demonstration video:
+
+<iframe width="560" height="315" src="[https://www.youtube.com/embed/VIDEO_ID](https://youtu.be/tfE10nMNSqE)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Documentation
+
+<img src="https://github.com/gibranalfarabi/portofolio-ar/assets/137768982/9d9308c7-ad9d-438c-9b24-dbc17abae86e" alt="Documentation 1" width="300" />
+<img src="https://github.com/gibranalfarabi/portofolio-ar/assets/137768982/9f02a58f-394e-476d-aa8d-e1167d5ca50a" alt="Documentation 2" width="300" />
+<img src="https://github.com/gibranalfarabi/portofolio-ar/assets/137768982/e870c4ba-61da-4035-a011-e7c6595e8e57" alt="Documentation 3" width="300" />
+<img src="https://github.com/gibranalfarabi/portofolio-ar/assets/137768982/db079b05-eed2-4683-a354-ce353a4ced50" alt="Documentation 4" width="300" />
+
+
