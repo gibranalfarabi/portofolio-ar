@@ -17,7 +17,11 @@ Or you can use this QR Code to go to the application:
 
 Here’s a demonstration video:
 
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/VIDEO_ID](https://youtu.be/tfE10nMNSqE)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p align="center">
+  <a href="[https://youtu.be/bQGo939faqs](https://youtu.be/tfE10nMNSqE)">
+    <img src="img/thubnail.png" alt="Demo Video" width="1000">
+  </a>
+</p>
 
 ## Documentation
 
