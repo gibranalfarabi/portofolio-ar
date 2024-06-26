@@ -19,7 +19,7 @@ Here’s a demonstration video:
 
 <p align="center">
   <a href="[https://youtu.be/bQGo939faqs](https://youtu.be/tfE10nMNSqE)">
-    <img src="img/thubnail.png" alt="Demo Video" width="1000">
+    <img src="img/Thumbnail.png" alt="Demo Video" width="1000">
   </a>
 </p>
 
