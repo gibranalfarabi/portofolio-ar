@@ -16,12 +16,7 @@ Or you can use this QR Code to go to the application:
 ## Video
 
 Here’s a demonstration video:
-
-<p align="center">
-  <a href="[https://youtu.be/bQGo939faqs](https://youtu.be/tfE10nMNSqE)">
-    <img src="img/Thumbnail.png" alt="Demo Video" width="1000">
-  </a>
-</p>
+<a href="[https://youtu.be/bQGo939faqs](https://youtu.be/tfE10nMNSqE)">Clink this link!</a>
 
 ## Documentation
 
