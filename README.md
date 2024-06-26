@@ -6,4 +6,11 @@ An augmented reality (AR) web application is a technology that allows users to v
 
 This is the link to go to the application:
 https://gibranalfarabi.github.io/portofolio-ar/index.html
+
+## Scan QR Code
+
+Or you can use this QR Code to go to the application:
+
+<img src="https://github.com/gibranalfarabi/portofolio-ar/assets/137768982/7246c05b-381b-4cd8-bb02-a8ad491e8777" alt="QR Code" width="200" />
+
 ![WhatsApp Image 2024-06-09 at 16 33 50_e77c891e](https://github.com/gibranalfarabi/portofolio-ar/assets/137768982/7246c05b-381b-4cd8-bb02-a8ad491e8777)
